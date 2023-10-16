@@ -18,6 +18,15 @@
   "block.createnuclear.deepslate_uranium_ore": "Deepslate Uranium Ore",
   "block.createnuclear.nether_uranium_ore": "Nether Uranium Ore",
   "block.createnuclear.end_stone_uranium_ore": "End Stone Uranium Ore",
+  "block.createnuclear.uranium_stairs": "Uranium Stairs",
+  "block.createnuclear.uranium_slab": "Uranium",
+  "block.createnuclear.uranium_button": "Uranium Button",
+  "block.createnuclear.uranium_pressure_plate": "Uranium Pressure Plate",
+  "block.createnuclear.uranium_fence": "Uranium Fence",
+  "block.createnuclear.uranium_fence_gate": "Uranium Fence Gate",
+  "block.createnuclear.uranium_wall": "Uranium Wall",
+  "block.createnuclear.uranium_door": "Uranium Door",
+  "block.createnuclear.uranium_trapdoor": "Uranium Trapdoor",
 
   "itemgroup.createnuclear": "Create Nuclear Group",
 

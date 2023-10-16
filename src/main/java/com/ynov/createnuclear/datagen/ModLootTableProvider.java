@@ -37,6 +37,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_URANIUM_ORE, uraniumOreDrops(ModBlocks.NETHER_URANIUM_ORE, ModItems.URANIUM, UniformLootNumberProvider.create(3.0f, 5.0f)));
         addDrop(ModBlocks.END_STONE_URANIUM_ORE, uraniumOreDrops(ModBlocks.END_STONE_URANIUM_ORE, ModItems.URANIUM, UniformLootNumberProvider.create(6.0f, 12.0f)));
         addDrop(ModBlocks.DEEPSLATE_URANIUM_ORE, uraniumOreDrops(ModBlocks.DEEPSLATE_URANIUM_ORE, ModItems.URANIUM, UniformLootNumberProvider.create(3.0f, 5.0f)));
+
+        addDrop(ModBlocks.URANIUM_STAIRS);
+        addDrop(ModBlocks.URANIUM_TRAPDOOR);
+        addDrop(ModBlocks.URANIUM_WALL);
+        addDrop(ModBlocks.URANIUM_FENCE);
+        addDrop(ModBlocks.URANIUM_FENCE_GATE);
+        addDrop(ModBlocks.URANIUM_BUTTON);
+        addDrop(ModBlocks.URANIUM_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.URANIUM_DOOR, doorDrops(ModBlocks.URANIUM_DOOR));
+        addDrop(ModBlocks.URANIUM_SLAB, slabDrops(ModBlocks.URANIUM_SLAB));
     }
 
 

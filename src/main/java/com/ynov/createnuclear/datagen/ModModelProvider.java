@@ -20,7 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_URANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_ORE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool uraniumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REACTOR_CORE_BLOCK);
@@ -28,6 +28,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REACTOR_CASING_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REACTOR_MAIN_FRAME_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REACTOR_COLLING_FRAME_BLOCK);
+
+        uraniumPool.stairs(ModBlocks.URANIUM_STAIRS);
+        uraniumPool.slab(ModBlocks.URANIUM_SLAB);
+        uraniumPool.button(ModBlocks.URANIUM_BUTTON);
+        uraniumPool.pressurePlate(ModBlocks.URANIUM_PRESSURE_PLATE);
+        uraniumPool.fence(ModBlocks.URANIUM_FENCE);
+        uraniumPool.fenceGate(ModBlocks.URANIUM_FENCE_GATE);
+        uraniumPool.wall(ModBlocks.URANIUM_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.URANIUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.URANIUM_TRAPDOOR);
+
     }
 
     @Override

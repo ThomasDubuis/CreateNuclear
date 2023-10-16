@@ -42,7 +42,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .forceAddTag(ModTags.Blocks.URANIUM_ORES)
                 .forceAddTag(ModTags.Blocks.REACTOR_BLOCKS)
-                .add(ModBlocks.SOUND_BLOCK);
+                .add(ModBlocks.SOUND_BLOCK)
+                .add(ModBlocks.URANIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .forceAddTag(ModTags.Blocks.URANIUM_ORES)
@@ -50,6 +51,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 .add(ModBlocks.END_STONE_URANIUM_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.URANIUM_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.URANIUM_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.URANIUM_WALL);
 
 
 

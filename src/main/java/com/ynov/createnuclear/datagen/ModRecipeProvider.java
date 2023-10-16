@@ -35,5 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.URANIUM), conditionsFromItem(ModItems.URANIUM))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.URANIUM_ROD)));
 
+
+
     }
 }
