@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "createnuclear:reactor_casing_block",
+    "createnuclear:reactor_colling_frame_block",
+    "createnuclear:reactor_controller_block",
+    "createnuclear:reactor_core_block",
+    "createnuclear:reactor_main_frame_block",
+    "createnuclear:uranium_block",
+    "#createnuclear:uranium_ores"
+  ]
+}

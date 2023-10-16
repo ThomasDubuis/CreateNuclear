@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createnuclear:uranium"
+    }
+  },
+  "result": {
+    "item": "createnuclear:uranium_block"
+  }
+}

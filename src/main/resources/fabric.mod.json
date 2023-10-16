@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "createnuclear",
+	"version": "${version}",
+	"name": "Create Nuclear",
+	"description": "This is an Create extention to allow you to create a NUCleAR REACTOR!",
+	"authors": [
+		"ynov"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/TOCHANGE",
+		"sources": "https://github.com/FabricMC/fabric-example-mod/TOCHANGE"
+	},
+	"license": "MIT",
+	"icon": "assets/createnuclear/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ynov.createnuclear.CreateNuclear"
+		],
+		"client": [
+			"com.ynov.createnuclear.CreateNuclearClient"
+		],
+		"fabric-datagen": [
+			"com.ynov.createnuclear.CreateNuclearDataGenerator"
+		]
+	},
+	"mixins": [
+		"createnuclear.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "item.createnuclear.uranium": "Uranium",
+  "item.createnuclear.uranium_rod": "Uranium Rod",
+
+  "item.createnuclear.metal_detector": "Metal Detector",
+  "item.createnuclear.tomato": "Tomato",
+  "item.createnuclear.uranium_coal": "Uranium Coal",
+  "block.createnuclear.sound_block": "Sound Block",
+
+  "block.createnuclear.reactor_casing_block": "Reactor Casing Block",
+  "block.createnuclear.reactor_colling_frame_block": "Reactor Colling Frame Block",
+  "block.createnuclear.reactor_controller_block": "Reactor Controller Block",
+  "block.createnuclear.reactor_core_block": "Reactor Core Block",
+  "block.createnuclear.reactor_main_frame_block": "Reactor Main Frame Block",
+  "block.createnuclear.uranium_block": "Block of Uranium",
+
+  "block.createnuclear.uranium_ore": "Uranium Ore",
+  "block.createnuclear.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "block.createnuclear.nether_uranium_ore": "Nether Uranium Ore",
+  "block.createnuclear.end_stone_uranium_ore": "End Stone Uranium Ore",
+
+  "itemgroup.createnuclear": "Create Nuclear Group",
+
+  "tooltip.createnuclear.metal_detector.tooltip": "Find valuables underground"
+}

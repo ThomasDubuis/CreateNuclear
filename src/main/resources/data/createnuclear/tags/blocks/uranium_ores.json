@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createnuclear:uranium_ore",
+    "createnuclear:deepslate_uranium_ore",
+    "createnuclear:nether_uranium_ore",
+    "createnuclear:end_stone_uranium_ore"
+  ]
+}
